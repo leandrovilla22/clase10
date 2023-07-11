@@ -1,0 +1,279 @@
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header img {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 100px;
+  padding: 5px 10px;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/*Navigation Menu*/
+.topnav {
+    overflow: hidden;
+    background-color: #752437;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+  
+  /* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+  
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.row {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+    flex-wrap: wrap;
+} 
+
+/*NEWS*/
+.row .column .new {
+    background-color: #fff;
+    padding: 5%;
+    flex: 1 1 auto;
+}
+
+.row .column .new h1 {
+    font-size: 19px;
+    font-family: "Noto Serif",serif;
+    line-height: 30px;
+    color: #292933;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.row .column .new h2 {
+    font-size: 12px;
+    font-family: "Noto Serif",serif;
+    line-height: 30px;
+    color: #292933;
+    margin-bottom: 10px;
+}
+
+
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-flex {
+  flex-basis: 30%;
+  padding: 0 10px;
+}
+
+.column-flex .new {
+  background-color: #fff;
+  padding: 5%;
+  margin-bottom: 20px;
+}
+
+.column-flex .new h1 {
+  font-size: 19px;
+  font-family: "Noto Serif",serif;
+  line-height: 30px;
+  color: #292933;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.column-flex .new h2 {
+  font-size: 12px;
+  font-family: "Noto Serif",serif;
+  line-height: 30px;
+  color: #292933;
+  margin-bottom: 10px;
+}
+
+/*footer*/
+.footer {
+    background-color: #752437;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .row-footer {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .row-footer .column-footer {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer .row-footer .column-footer li {
+  list-style: none;
+  padding: 10px;
+}
+
+.footer .row-footer .column-footer li a {
+  font-size: 15px;
+  font-family: "Noto Serif",serif;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.error-text {
+  color: white;
+  font-size: 12px;
+  display: none;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.formulario input,
+.formulario button {
+  margin-bottom: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+

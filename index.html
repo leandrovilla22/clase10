@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles-desktop.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header">
+        <img src="images/logouai.webp" alt="Logo UAI">
+    </div>
+
+    <div class="topnav">
+        <a href="#Materias">Materias</a>
+        <a href="#Novedades-cursado">Novedades cursado</a>
+        <a href="#Noticias">Noticias</a>
+        <a href="#Datos-del-dia">Datos del dia</a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div id="Materias" class="new">
+            <h1>Materias</h1>
+            <p>¡Explora nuestro amplio catálogo de materias emocionantes y enriquecedoras! En nuestra institución, nos enorgullece ofrecer una amplia variedad de disciplinas académicas para satisfacer las diferentes pasiones e intereses de nuestros estudiantes.</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div id="Novedades-cursado" class="new">
+            <h1>Novedades cursado</h1>
+            <p>¡Mantente actualizado con las últimas novedades de cursado en nuestra universidad! En nuestra institución, nos esforzamos constantemente por ofrecer una experiencia educativa de vanguardia y adaptada a las necesidades cambiantes de nuestros estudiantes.</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div id="Noticias" class="new">
+            <h1>Noticias</h1>
+            <p>Investigación innovadora: Los profesores y estudiantes de la materia de Teleprocesamiento Avanzado han estado trabajando arduamente en proyectos de investigación innovadores que están marcando la diferencia en su campo. Recientemente, un equipo de investigadores de nuestra facultad recibió reconocimiento internacional por su estudio pionero sobre electromagnetismo. Sus hallazgos han sido publicados en destacadas revistas científicas y están generando un impacto significativo en la comunidad académica.</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div id="Datos-del-dia" class="new">
+            <h1>Datos del dia</h1>
+            <p>Premios y reconocimientos: Nuestros talentosos estudiantes de la materia de Calculo han sido reconocidos por sus destacados logros. Recientemente, uno de nuestros estudiantes obtuvo el primer lugar en una competencia nacional relacionada con integrales.</p>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="row-flex">
+            <div class="column-flex">
+              <div class="new">
+                <h1>Reparaciones</h1>
+                <p>Se repararon las computadoras del laboratorio que no encendian.</p>
+              </div>
+            </div>
+            
+            <div class="column-flex">
+              <div class="new">
+                <h1>Ingresos</h1>
+                <p>El profesor Juan Perez asumio en la materia Fisica.</p>
+              </div>
+            </div>
+          </div><div class="row-flex">
+            <div class="column-flex">
+              <div class="new">
+                <h1>Bedelia</h1>
+                <p>Las notas de la materia Programacion I seran subidas a la web el lunes por un problema.</p>
+              </div>
+            </div>
+            
+            <div class="column-flex">
+              <div class="new">
+                <h1>Medios</h1>
+                <p>Nueva grupo de whatsapp para la materia Trabajo de campo</p>
+              </div>
+            </div>
+          </div>
+
+          <footer id="formulario" class="footer">
+            <div class="row-footer">
+              <div class="column-footer">
+                <img src="images/logo.jpg">
+              </div>
+              
+              <div class="column-footer">
+                <li><a>Instagram</a></li>
+                <li><a>Facebook</a></li>
+                <li><a>Email bedelia</a></li>
+                <li><a>Twitter</a></li>
+              </div>
+              
+              <div class="column-footer">
+                <li><a>Calendario academico</a></li>
+                <li><a>Carreras</a></li>
+                <li><a>Ultra</a></li>
+              </div>
+            </div>
+          
+            <form id="formulario" class="formulario">
+              <div class="columna">
+                <input type="text" id="nombre" placeholder="Nombre">
+                <span id="nombre-error" class="error-text"></span>
+          
+                <input type="text" id="email" placeholder="Email">
+                <span id="email-error" class="error-text"></span>
+              </div>
+          
+              <div class="columna">
+                <input type="password" id="contrasena" placeholder="Contraseña">
+                <span id="contrasena-error" class="error-text"></span>
+          
+                <input type="number" id="edad" placeholder="Edad">
+                <span id="edad-error" class="error-text"></span>
+              </div>
+          
+              <div class="columna">
+                <input type="number" id="telefono" placeholder="Telefono">
+                <span id="telefono-error" class="error-text"></span>
+          
+                <input type="text" id="direccion" placeholder="Direccion">
+                <span id="direccion-error" class="error-text"></span>
+              </div>
+          
+              <div class="columna">
+                <input type="text" id="ciudad" placeholder="Ciudad">
+                <span id="ciudad-error" class="error-text"></span>
+          
+                <input type="number" id="cp" placeholder="Codigo Postal">
+                <span id="cp-error" class="error-text"></span>
+              </div>
+          
+              <div class="columna">
+                <input type="number" id="dni" placeholder="DNI">
+                <span id="dni-error" class="error-text"></span>
+              </div>
+          
+              <button type="submit" id="suscribir">Suscribir</button>
+            </form>
+
+              <div class="modal" id="modal-submit">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modal-message"></p>
+              </div>
+          </footer>
+
+          <script src="suscribir.js"></script> 
+</body>
+</html>
+
